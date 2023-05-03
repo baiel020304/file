@@ -1,0 +1,55 @@
+.services {
+    padding-top: 116px ;
+    &__h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        /* identical to box height, or 43px */
+
+        text-align: center;
+        padding: 17px;
+        color: #1F2E35;
+
+    }
+    &__card{
+        padding-top: 20px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 133.69%;
+        /* or 37px */
+
+        padding: 15px 0;
+        color: #EE4248;
+
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+        color: #30444E;
+
+    }
+    &__btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #FFFFFF;
+        margin-top: 15px;
+        background: #EE4248;
+        display: inline-block;
+        padding: 8px 16px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        white-space: nowrap;
+    }
+}

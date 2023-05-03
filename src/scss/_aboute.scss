@@ -1,0 +1,38 @@
+.aboute {
+    background: #F7F7F7;
+
+    &__card {
+        padding-top: 53px;
+        padding-bottom: 63px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        /* or 43px */
+
+
+        color: #1F2E35;
+
+        &_red {
+            color: #EE4248;
+        }
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+
+
+        color: #30444E;
+        padding-top: 24px;
+        &_red {
+            color: #EE4248;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    height: 64px;
+    background: #EE4248;
+    display: flex;
+    align-items: center;
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,253 @@
+@import '../fonts/roboto/roboto.css';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.3%;
+}
+
+.header {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  padding: 22px 0;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: rgba(31, 46, 53, 0.8);
+}
+.header .nav__menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style-type: none;
+}
+.header .nav__menu-item {
+  position: relative;
+  padding: 5px 0;
+}
+.header .nav__menu-item .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  background: #FFFFFF;
+}
+.header .nav__menu-item .dropdown__link {
+  padding: 10px;
+  white-space: nowrap;
+}
+.header .nav__menu-item .dropdown__link:hover {
+  background: gray;
+}
+.header .nav__menu-item:hover .dropdown {
+  display: flex;
+}
+.header .nav__sub-menu {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+
+.home {
+  padding: 110px 0 160px;
+}
+.home__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133.69%;
+  /* or 64px */
+  color: #1F2E35;
+}
+.home__title_red {
+  color: #EE4248;
+  word-break: break-all;
+}
+.home__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #30444E;
+  margin-top: 24px;
+}
+.home__btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 36px;
+  background: #EE4248;
+  display: inline-block;
+  padding: 12px 32px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.aboute {
+  background: #F7F7F7;
+}
+.aboute__card {
+  padding-top: 53px;
+  padding-bottom: 63px;
+}
+.aboute__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  /* or 43px */
+  color: #1F2E35;
+}
+.aboute__title_red {
+  color: #EE4248;
+}
+.aboute__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #30444E;
+  padding-top: 24px;
+}
+.aboute__text_red {
+  color: #EE4248;
+}
+
+.services {
+  padding-top: 116px;
+}
+.services__h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  /* identical to box height, or 43px */
+  text-align: center;
+  padding: 17px;
+  color: #1F2E35;
+}
+.services__card {
+  padding-top: 20px;
+}
+.services__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  /* or 37px */
+  padding: 15px 0;
+  color: #EE4248;
+}
+.services__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #30444E;
+}
+.services__btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 15px;
+  background: #EE4248;
+  display: inline-block;
+  padding: 8px 16px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.contacts {
+  padding-top: 110px;
+  margin-bottom: 13px;
+}
+.contacts__logo-img {
+  padding-top: 28px;
+}
+.contacts__title1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #263238;
+  padding: 10px 0 8px 0;
+}
+.contacts__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  /* or 27px */
+  color: #263238;
+}
+.contacts__title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #263238;
+  padding-bottom: 23px;
+  padding-top: 51px;
+}
+
+.footer {
+  height: 64px;
+  background: #EE4248;
+  display: flex;
+  align-items: center;
+}
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

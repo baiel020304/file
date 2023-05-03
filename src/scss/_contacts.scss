@@ -1,0 +1,43 @@
+.contacts {
+    padding-top: 110px;
+    margin-bottom: 13px;
+    
+    &__logo-img{
+        padding-top: 28px;
+    }
+    &__title1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+
+        color: #263238;
+        padding: 10px 0 8px 0;
+
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        /* or 27px */
+
+        color: #263238;
+        
+    }
+
+    &__title2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #263238;
+        padding-bottom: 23px;
+        padding-top: 51px;
+
+    }
+}
